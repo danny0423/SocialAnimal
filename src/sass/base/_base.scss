@@ -1,0 +1,54 @@
+@use './variables';
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0 auto;
+  font-size: variables.$font_size_default;
+  font-family: 'Noto Sans TC', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}

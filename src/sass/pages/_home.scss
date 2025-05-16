@@ -1,0 +1,19 @@
+@use '../base/variables';
+
+//統一使用margin-top做section距離
+.home{
+  max-width: 120rem;
+  margin: 0 auto;
+}
+.header {
+  margin-top: variables.$spacing_lg;
+}
+.share-experience {
+  margin-top: variables.$section-gap;
+}
+.animal-persona{
+  margin-top: variables.$section-gap;
+}
+.community-share{
+  margin-top: variables.$section-gap;
+}

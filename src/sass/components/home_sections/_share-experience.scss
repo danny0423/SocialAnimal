@@ -1,0 +1,44 @@
+@use '../../base/variables';
+
+.share-experience {
+  width: 100%;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__img-container {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+  }
+  &__img {
+    width: 80%;
+    margin-left: auto;
+  }
+  .article {
+    &__name {
+      margin-top: 4.8rem;
+      span {
+        display: block;
+        margin: 1rem 0;
+      }
+      &--en {
+        font-size: 3.6rem;
+      }
+      &--ch {
+        font-size: 3.2rem;
+        font-weight: normal;
+      }
+    }
+    &__content {
+      margin-top: variables.$spacing_lg;
+    }
+    &__title {
+      display: block;
+      margin-bottom: 1rem;
+    }
+    &__text {
+      color: variables.$color_gray_dark;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+@use '../base/variables';
+
+.navbar {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  height: 16.4rem;
+  .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+  }
+  .nav-item {
+    transition: 0.5s all;
+    cursor: pointer;
+    &:hover {
+      color: variables.$color_gray_red_light;
+    }
+  }
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+}

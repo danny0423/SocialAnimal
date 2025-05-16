@@ -1,0 +1,38 @@
+@use '../../base/variables';
+
+.animal-persona {
+  .persona {
+    &__list {
+      display: flex;
+      margin-top: variables.$spacing_lg;
+      gap: 3.2rem;
+    }
+    &__card{
+      padding-bottom: 2rem;
+      border-radius: 2rem;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    &__img-container {
+      width: 100%;
+    }
+    &__img {
+      width: 100%;
+    }
+    &__name {
+      margin-top: variables.$spacing_lg;
+      font-size: 2rem;
+      &--ch {
+        margin-bottom: 2rem;
+      }
+      &--en {
+        color: variables.$color_gray_dark;
+      }
+    }
+    &__btns{
+      display: flex;
+      gap: 1.6rem;
+      margin-top: 2.9rem;
+    }
+  }
+}

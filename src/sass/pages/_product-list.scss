@@ -1,0 +1,18 @@
+.products-list {
+  max-width: 120rem;
+  margin: 0 auto;
+  margin-bottom: 8.4rem;
+  padding-bottom: 0;
+  margin-top: 19.1rem;
+  .subtitle {
+    font-size: 3.2rem;
+  }
+  .persona__list{
+    flex-direction: column;
+  }
+  .persona__set{
+    display: flex;
+    // flex-direction: column;
+    gap: 8rem;
+  }
+}
