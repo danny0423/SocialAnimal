@@ -17,3 +17,9 @@
 
 @use './pages/home';
 @use './pages/product-list';
+
+
+body::after {
+  content: '/* debug: css loaded */';
+  display: none;
+}
